@@ -4,4 +4,4 @@ This repository will hold group homework assignments.
 
 # Index
 
-* [Needs Requirements and Specifications](./specification/)
+* [Need and Requirement Specification](./specification/)
