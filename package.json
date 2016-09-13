@@ -1,0 +1,23 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "This repository will hold group homework assignments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FA16-06/homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FA16-06/homework/issues"
+  },
+  "homepage": "https://github.com/FA16-06/homework#readme",
+  "dependencies": {
+    "markdown-pdf": "^7.0.0"
+  }
+}
