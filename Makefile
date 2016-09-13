@@ -8,6 +8,18 @@ SHELL := bash
 ################
 # Environment variables
 
+ifndef ENTR_BIN
+ENTR_BIN := $(firstword $(shell which entr 2>/dev/null))
+endif
+
+################
+# Sanity checks and local variables
+
+use_watcher := 0
+ifneq ($(ENTR_BIN),)
+use_watcher := 1
+endif
+
 ################
 # Standard targets
 
@@ -16,7 +28,15 @@ all: gen/specification.pdf
 
 .PHONY: run
 run:
+ifeq ($(use_watcher),1)
 	+$(MAKE) -j 2 server watcher
+else
+	+$(MAKE) -j 2 server all
+endif
+
+.PHONY: depend
+depend:
+	npm install
 
 .PHONY: clean
 clean:
@@ -36,16 +56,13 @@ watcher:
 ################
 # Source transformations
 
-node_modules: package.json
-	npm install
-
 gen:
 	mkdir -p $@
 
 gen/specification.css: base.css specification/make_css.py | gen
 	{ cat $(word 1,$^); python3 $(word 2,$^); } > $@
 
-gen/specification.pdf: specification/index.md gen/specification.css | gen node_modules
+gen/specification.pdf: specification/index.md gen/specification.css | gen
 	./node_modules/.bin/markdown-pdf \
 		--out $@ \
 		--paper-format A4 \
