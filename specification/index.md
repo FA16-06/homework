@@ -2,14 +2,19 @@
 
 ## Introduction
 
-A general description of the project as we see it...
-This project is the best project in the world. it will enable you to do everything.
+The White Table is a collaborative, recreational, and educational tool allowing a team or an individual to interact with a responsive display, all with the simple form factor of a coffee table.
+With a touch sensitive display as the surface of the table, users can express their ideas visually by drawing or writing on the table.
+The White Table simplifies business meetings by allowing rapid contributions by many individuals with equally rapid documentation saving images to be reviewed later.
+The White Table allows individuals to casually doodle and sketch in the comfort of a living room.
+The White Table augments tabletop gaming as the tabletop can become the game itself.
+The White Table is just that, a table. When not in use, it retains its simple aesthetics as a table allowing its integration into nearly any setting.
+The Whtite Table is the greatest evolution in table technology since Table Tennis
 
 ## Requirements
 
 * Physical Specification
 	* The device MUST be able to function as a regular table.
-		* The device MUST have 4 legs to support it.
+		* The device MUST have at least 4 points of contact with the ground for support.
     * The device MUST be easily movable.
     	* The device MUST NOT weigh more than 100 pounds.
       * The device MUST be able to be turned on its side when transporting.
@@ -17,10 +22,12 @@ This project is the best project in the world. it will enable you to do everythi
   * The device MUST fit comfortably in a standard 16' x 20' living room.
   	* The device MUST NOT be larger than 4'x4'x4'.
     * The device MUST NOT be smaller than 1'x1'x1'.
- 	* The device MUST have an electric display as the surface of the table.
+ 	* The device MUST have a display as the surface of the table.
   	* The device MAY allow bezeling along the edges of the display.
     * The display MUST have a minimum 30 ppi
     * The display MUST have a 16:9 aspect ratio
+ 	* The device MUST be able to receive touch input on its surface.
+    * The touch input MUST have a greater resolution than the display
   * The device MUST have a power source.
  		* The device MUST be battery powered.
  		* The device MUST be chargeable through a power cord.
@@ -28,7 +35,7 @@ This project is the best project in the world. it will enable you to do everythi
       * The power cord MUST be easily manged.
       	* The device MAY have storage for the power cord.
         * The power cord MAY be non-removable.
-	* The device MUST be sturdy.
+	* The device MUST be durable.
   	* The device MUST be able to support loads up to 50lbs.
     * The device MUST be able to function after a liquid is spilled on it.
     	* The device MAY NOT properly receive input with a liquid on the surface.
@@ -45,13 +52,13 @@ This project is the best project in the world. it will enable you to do everythi
   * The device MUST be able to incline the display and touch interface.
   	* The device MAY be able to incline to 30&deg;.
     * The device MUST not be able to incline more than 120&deg;.
-	* The device MUST have a switch for changing between standalone and peripheral mode.
+	* The device MUST be able to change between standalone and peripheral mode.
   	* The mode changing switch MAY be hardware based.
   	* The mode changing switch MAY be software based.
   * The device MUST have a port for connecting external devices
 * Functionality
 	* The device MUST be able to operate in a standalone mode.
-		* The device MUST allow users to draw on the surface using some input method.
+		* The device MUST allow users to draw on the surface using some touch input method.
 		* The device MUST allow users to save their drawings to internal storage.
 		* The device MUST allow users to save their drawings to external storage.
   	* The device MUST allow users to load their drawings from internal storage.
@@ -104,4 +111,18 @@ This project is the best project in the world. it will enable you to do everythi
 
 ## Need
 
+Team collaboration and documentation is a major challenge in all levels of industry and business.
+White boards and paper leave much to be desired in terms of functionality as they do not integrate well into digital technologies.
+The White Table proposes to allow rapid visual collaboration and documentation in the simple form factor of a table.
+Multiple users could draw and write notes to share in real time, and the implementation as a table allows for ubiquitous versatility.
+Currently there are no products on the market that have the proposed functionality of the White Table.
+Collaborative touch displays exist but are likely too cost prohibitive to persuade adoption over traditional collaboration methods like white boards.
+Furthermore, many existing products take on the form of wall mounted boards or lack a simple aesthetic preventing integration into casual settings.
+Our customer desired this product as a means to easily draw and record his ideas to be easily shared.
+Initially the target market is small businesses and teams looking for an easy way to collaborate.
+The target market will hopefully be expanded to the household with the table as a recreational product.
+
+
 ## Summary
+
+The White Table is an interactive touch display as the surface of a table allowing collaboration and recreation in any setting.
